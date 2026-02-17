@@ -142,7 +142,10 @@ export default function About() {
             <div className="mt-20 relative block rounded-3xl dark:bg-white/70 bg-zinc-400/20 p-8 pb-16 shadow-xl">
               <Image src={GSoC} alt='gsoc' width={500} height={350} className="mx-auto" />
               <div className="mt-10 flex justify-center gap-6 flex-col sm:flex-row">
-                <Link className="order-1 group relative rounded-lg inline-flex items-center overflow-hidden bg-white dark:bg-zinc-800 px-8 py-3 text-black dark:text-white focus:outline-none" href="https://summerofcode.withgoogle.com/">
+                <Link
+                  className="order-1 group relative inline-flex items-center overflow-hidden rounded-lg bg-white px-8 py-3 font-mono font-semibold text-[#00843D] shadow-sm ring-1 ring-black/10 transition hover:bg-[#00843D] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#00843D] focus-visible:ring-offset-2 dark:bg-black dark:text-yellow-400 dark:ring-white/15 dark:hover:bg-yellow-400 dark:hover:text-black dark:focus-visible:ring-yellow-400 dark:focus-visible:ring-offset-2 dark:focus-visible:ring-offset-black"
+                  href="https://summerofcode.withgoogle.com/"
+                >
                   <span className="font-mono font-semibold text-center">
                     View GSoC Program Announcements
                   </span>

@@ -102,7 +102,7 @@ export default function Ideas({ articles }) {
                     <div className="text-center mt-16">
                         <Link
                             href="/ideas"
-                            className="mx-auto group rounded-lg items-center overflow-hidden bg-zinc-800 dark:bg-white px-8 py-3 text-white focus:outline-none dark:text-black"
+                            className="group mx-auto inline-flex items-center overflow-hidden rounded-lg bg-white px-8 py-3 font-mono font-semibold text-[#00843D] shadow-sm ring-1 ring-black/10 transition hover:bg-[#00843D] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#00843D] focus-visible:ring-offset-2 dark:bg-black dark:text-yellow-400 dark:ring-white/15 dark:hover:bg-yellow-400 dark:hover:text-black dark:focus-visible:ring-yellow-400 dark:focus-visible:ring-offset-2 dark:focus-visible:ring-offset-black"
                         >
                             <span className="font-mono font-semibold">Go Back</span>
                         </Link>
