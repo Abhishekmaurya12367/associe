@@ -120,10 +120,10 @@ export default function Ideas({ articles }) {
           </div>
           <div className="mt-16 text-center">
             <Link
-              className="group order-2 mx-auto items-center overflow-hidden rounded-lg bg-zinc-800 px-8 py-3 text-white focus:outline-none dark:bg-white dark:text-black"
+              className="group order-2 mx-auto inline-flex items-center overflow-hidden rounded-lg bg-white px-8 py-3 font-mono font-semibold text-[#00843D] shadow-sm ring-1 ring-black/10 transition hover:bg-[#00843D] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#00843D] focus-visible:ring-offset-2 dark:bg-black dark:text-yellow-400 dark:ring-white/15 dark:hover:bg-yellow-400 dark:hover:text-black dark:focus-visible:ring-yellow-400 dark:focus-visible:ring-offset-2 dark:focus-visible:ring-offset-black"
               href="/ideas/2024"
             >
-              <span className="text-center font-mono font-semibold">
+              <span className="text-center">
                 View 2024 Idea List
               </span>
             </Link>
