@@ -33,7 +33,7 @@ const Cards = () => {
       {projects.map((project, index) => (
         <Grid item xs={12} sm={6} md={4} key={index}>
           <MuiCard
-            className='dark:bg-[#2A2A2A] dark:border-white'
+            className='dark:bg-[#2A2A2A] dark:border-white transform transition-transform duration-200 hover:scale-105'
             sx={{
               height: 400,
               borderRadius: 2,
